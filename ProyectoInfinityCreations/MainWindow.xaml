@@ -344,7 +344,7 @@
                 </Grid>
             </Border>
             <Grid Grid.Row="1">
-                <Border CornerRadius="8,0,8,0" Margin="47,425,688,-445" Opacity="0.9">
+                <Border CornerRadius="8,0,8,0" Margin="41,170,694,-190" Opacity="0.9">
                     <Border.Background>
                         <ImageBrush Stretch="UniformToFill" ImageSource="/Logo.png"/>
                     </Border.Background>
@@ -364,7 +364,7 @@
                     <TextBox Style="{DynamicResource TextBoxUser}" x:Name="usuario" Width="150" Background="#eeeeee" Margin="0,-20,0,0" Height="25" Padding="5,4,0,0" GotFocus="usuario_GotFocus" LostFocus="usuario_LostFocus" KeyUp="usuario_KeyDown" PreviewKeyDown="usuario_KeyDown"/>
                 </StackPanel>
                 <StackPanel>
-                    <TextBlock x:Name="txtBlock"  Margin="0,220,40,0" Width="80" Panel.ZIndex="1" HorizontalAlignment="Center" Padding="0,3,0,2" MouseLeftButtonDown="txtBlock_MouseLeftButtonDown" Cursor="IBeam" Height="20"><Run Language="es-mx" Text="ola"/></TextBlock>
+                    <TextBlock x:Name="txtBlock"  Margin="0,220,40,0" Width="80" Panel.ZIndex="1" HorizontalAlignment="Center" Padding="0,3,0,2" MouseLeftButtonDown="txtBlock_MouseLeftButtonDown" Cursor="IBeam" Height="20"><Run Language="es-mx" Text="Contraseña"/><LineBreak/><Run Language="es-mx"/></TextBlock>
                     <PasswordBox Style="{DynamicResource PasswordBoxStyle1}" x:Name="contraseña" Background="#eeeeee" Width="150"  Margin="0,-20,0,0" Height="25"  Padding="5,4,0,0" GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus" KeyUp="contraseña_KeyDown" PreviewKeyDown="contraseña_KeyDown">
                     </PasswordBox>
                 </StackPanel>
